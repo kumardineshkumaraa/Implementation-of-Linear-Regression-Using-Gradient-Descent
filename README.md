@@ -8,10 +8,25 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+STEP 1: Start
+
+STEP 2: Import necessary libraries: 'numpy', 'pandas', and 'StandardScaler'.
+
+STEP 3: Define a 'linear_regression' function that initializes 'theta' and performs gradient descent to update theta based on the error between predictions and actual values.
+
+STEP 4: Load the dataset from the CSV file into a Pandas DataFrame
+
+STEP 5: Extract the feature matrix 'x' and target values 'y' from the dataset.
+
+STEP 6: Standardize 'x' and 'y' using StandardScaler to normalize the data.
+
+STEP 7: Call the 'linear_regression' function with standardized data to learn the model parameters 'theta'.
+
+STEP 8: Prepare a new data point, standardize it, and predict the target value using the learned 'theta'.
+
+STEP 9: Output the predicted value, reversing the standardization to return it to the original scale.
+
+STEP 10: End
 
 ## Program:
 ```
@@ -67,7 +82,15 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![linear regression using gradient descent](sam.png)
+Data values
+
+![image](https://github.com/user-attachments/assets/ffeae361-1f7e-4ff1-bd28-6b75a518d2c6)
+
+Predicted values
+
+![image](https://github.com/user-attachments/assets/84b63317-5142-4f36-8bfb-012f431e3282)
+
+
 
 
 ## Result:
